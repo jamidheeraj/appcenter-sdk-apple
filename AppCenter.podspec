@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.osx.deployment_target = '10.13'
   s.tvos.deployment_target = '11.0'
-  s.source = { :http => "https://github.com/microsoft/appcenter-sdk-apple/releases/download/#{s.version}/AppCenter-SDK-Apple-XCFramework-#{s.version}.zip" }
+  s.source = { :http => "http://github.com/jamidheeraj/appcenter-sdk-apple" }
 
   s.preserve_path = 'AppCenter-SDK-Apple/README.md'
 
